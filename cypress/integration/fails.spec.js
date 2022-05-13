@@ -6,7 +6,7 @@ describe('Some tests fail', function () {
     cy.scrollTo(0, 1200);
     cy.contains('Africa');
   });
-  it('Failing Test B', function () {
+  it('Failing Test B ', function () {
     cy.visit('/');
     cy.get('#simpleSearch').type('Africa');
     cy.get('.suggestions-result').first().click();
